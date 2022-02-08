@@ -5,9 +5,9 @@
         <table border="1px solid black">
         <form>
             <tr><td><label for="employeename">Employee Name:</label></td>
-            <td><input type="text" id="employeename" name="employeename" required></td></tr>
+            <td><input type="text" id="employeename" name="employeename" placeholder="please enter the name" required></td></tr>
             <tr><td><label for="age">Age: </label></td>
-            <td><input type="number" id="age" name="age" required></td></tr>
+            <td><input type="number" id="age" name="age" placeholder="enter your age" required></td></tr>
              <tr>
                 <td>gender: </td>
                 <td><input type="radio" id="male" name="gender" value="male">male</input>
@@ -15,11 +15,11 @@
                 </tr>
                 <tr>
             <tr><td><label for="designation">Designation:</label></td>
-            <td><input type="text" id="designation" name="designation" required></td></tr>
+            <td><input type="text" id="designation" name="designation" placeholder="please enter designation" required></td></tr>
             <tr><td><label for="salary">Salary: </label></td>
-            <td><input type="number" id="salary" name="salary" required></td></tr>
+            <td><input type="number" id="salary" name="salary" min="10000" step="1000"required></td></tr>
             <tr><td><label for="email">Enter your email:</label></td>
-            <td><input type="email" id="email" name="email" required></td></tr>
+            <td><input type="email" id="email" name="email" placeholder="enter the email" required></td></tr>
             <tr>
                 <td>Select Location</td>
                 <td><select name="location" id="location">
@@ -32,7 +32,7 @@
             <tr><td><label for="joiningdate">Joining Date:</label></td>
             <td><input type="date" id="joiningdate" name="joiningdate" required></td></tr>
             <tr><td><label for="Contactnumber">Enter your contact number:</label></td>
-            <td><input type="tel" id="Contactnumber" name="contactnumber" required></td></tr>
+            <td><input type="tel" id="Contactnumber" name="contactnumber" placeholder="enter contact details" required></td></tr>
             <tr><td colspan="2"><input type="submit" value="Submit"></td></tr>
         </form>
     </table>
